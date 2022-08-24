@@ -23,4 +23,8 @@
         opacity: unset;
         margin-top: -17px;
     }
+    #content .grid-none {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
 }
