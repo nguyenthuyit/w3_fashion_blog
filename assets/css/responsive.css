@@ -1,0 +1,26 @@
+/* cho ca tablet va mobile */
+@media(max-width: 1023px){
+    #content .grid-content{
+        grid-template-columns: auto;
+    }
+}
+
+/* rieng tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+    .third-header .info-third{
+        top: 35%;
+    }
+}
+/* mobile */
+@media(max-width: 739px){
+    .third-header .title-third{
+        display: none;
+    }
+    .third-header .info-third{
+        top: 30%;
+    }
+    .third-header .sub-title-third{
+        opacity: unset;
+        margin-top: -17px;
+    }
+}

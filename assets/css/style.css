@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.back-white{
+    background-color: #fff;
+}
+
+#header{
+    background-color: #000;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#header .icon-list{
+    display: flex;
+    justify-content: space-around;
+    line-height: 43px;
+    
+}
+#header .icon-list li{
+    list-style: none;
+}
+#header .icon-list li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px;
+}
+#header .icon-list li a:hover,
+#header .btn-header:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+#header .btn-header{
+    color: #fff;
+    border: none;
+    padding: 13px;
+    background-color: #000;
+}
+.next-header{
+    text-align: center;
+    margin: 64px 0;
+}
+.next-header .title-heading{
+    font-size: 48px;
+}
+.next-header .text-title span{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+}
+.third-header{
+    background: url(../img/jane.jpg) top center /cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+    display: flex;
+
+}
+.third-header .info-third{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    left: 5%;
+    letter-spacing: 4px;
+
+}
+.third-header .name-third{
+    font-size: 36px;
+
+
+}
+.third-header .title-third{
+    font-size: 64px;
+
+}
+.third-header .sub-title-third{
+    font-size: 18px;
+    border: none;
+    padding: 16px;
+    opacity: 0.4;
+
+}
+.third-header .sub-title-third:hover{
+    cursor: pointer;
+    opacity: unset;
+}
+#content{
+    background-color: #f1f1f1;
+    padding: 32px;
+
+}
+#content img{
+    width: 100%;
+}
+#content .grid-content{
+    display: grid;
+    grid-template-columns: 60% 38%;
+    column-gap: 30px;
+
+}
+
+#content .item-left{
+    background-color: #fff;
+    padding: 32px 16px;
+    margin-bottom: 48px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+}
+#content .title-item{
+    text-align: center;
+    font-size: 24px;
+
+}
+#content .sub-title-item{
+    text-align: center;
+    font-size: 18px;
+
+}
+#content .sp-sub{
+    color: #ccc;
+
+}
+#content .des-item{
+    line-height: 1.4;
+    text-align: justify;
+
+
+}
+#content .sp-des{
+    font-weight: bold;
+
+}
+#content .footer-item{
+    display: flex;
+    justify-content: space-between;
+
+}
+#content .btn-like{
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-weight: bold;
+
+}
+#content .btn-like:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+#content .comment-rep{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border: none;
+
+}
+#content .comment-rep:hover{
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+#content .btn-rep{
+    background-color: #fff;
+    color: #000;
+    padding: 4px;
+    margin-left: 4px;
+
+}
+hr{
+    margin-top: 48px;
+    
+}
+
+#content .none-item{
+    display: grid;
+    row-gap: 10px;
+    display: none;
+
+}
+#content .none-item.open{
+    display: block;
+}
+#content .grid-none{
+    display: grid;
+    grid-template-columns: 15% 85%;
+
+}
+#content .info-img{
+    padding: 32px 0 16px 32px;
+
+}
+.none-item img,
+.item-right .second-item img{
+    padding: 16px 8px 0 0;
+    width: 80%;
+}
+.none-item .title-none-item{
+    font-size: 18px;
+    
+}
+#content .item-right{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 48px;
+
+
+}
+#content .info-item-right{
+    padding: 16px;
+    
+}
+.item-right .info-first{
+    background-color: #000;
+    color: #fff;
+    margin-top: -16px;
+    line-height: 1.4;
+    
+}
+.item-right .name-info{
+    color: #fff;
+    background-color: #000;
+    padding: 16px;
+}
+.item-right .second-item{
+    background-color: #fff;
+    display: grid;
+    row-gap: 8px;
+}
+.item-right .second-item .grid-none:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.item-right hr{
+    margin-top: unset;
+}
+.item-right .third-item{
+    height: 200px;
+    display: flex;
+    background-color: #f1f1f1;
+}
+.item-right .text-third{
+    margin: auto;
+}
+.item-right span{
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+    background-color: #ccc;
+}
+.item-right span:first-child{
+    color: #fff;
+    background-color: #000;
+}
+.item-right .five-item{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.item-right .six-item{
+    display: flex;
+    list-style: none;
+}
+.item-right .six-item li a{
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+}
+.item-right .six-item li a:hover{
+    opacity: 0.7;
+}
+.item-right .form-control{
+    width: 100%;
+    margin-bottom: 13px;
+    padding: 14px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+.item-right .sub-control,
+.model .sub-control-model{
+    background-color: rgb(247, 96, 96);
+    color: #fff;
+    border: none;
+}
+.item-right .sub-control:hover,
+.model .sub-control-model:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: #ccc;
+    padding: 64px 0;
+
+
+}
+#footer .info-footer{
+    padding:  16px 32px;
+}
+#footer button{
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 32px;
+    border: none;
+}
+#footer button:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+#footer p,a{
+    color: #fff;
+}
+.model.open{
+    display: flex;
+}
+.model{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+   
+}
+.model .model-content{
+    margin: auto;
+    background-color: #fff;
+    padding: 32px;
+    max-width: calc(100% - 32px);
+    width: 900px;
+
+}
+.model .header-model{
+    display: flex;
+    justify-content: space-between;
+}
+.model .title-heading-model{
+    letter-spacing: 4px;
+    font-size: 30px;
+
+}
+.model button{
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+
+}
+.model .form-control-model{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 13px;
+    border: 1px solid #ccc;
+}
